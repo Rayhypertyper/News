@@ -7,7 +7,7 @@ ReNews is a Flask-based web application that fetches and displays news articles 
 - Responsive interface using bootstrap
 - Navigation bar sorted by topics
 
-## Prereuisites
+## Prerequisites
 - Python 3.x
 - Flask
 - News API key
@@ -19,18 +19,18 @@ ReNews is a Flask-based web application that fetches and displays news articles 
     cd insta-news
     '''
 
-2. Create a virtual environment and activate it:
-    ```
+2. Create a virtual environment and activate it
+   ```
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
 3. Install the dependencies:
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 
 4. Set up your News API key in config.py
-   '''
+   ```
    NEWS_API_KEY = "your_api_key_here"
-   '''
+   ```
